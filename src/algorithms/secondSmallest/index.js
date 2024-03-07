@@ -5,7 +5,6 @@ function secondSmallest(numArray) {
     if (numArray.length <= 1) return null
 
     let sorted = numArray.sort((a, b) => a - b)
-    console.log("result", sorted)
     return sorted[1]
 }
 

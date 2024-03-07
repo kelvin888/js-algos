@@ -25,7 +25,6 @@ function lengthOfLongestSubstring(inputStr) {
             nonRepeatingArr.push(inputStr[i])
         }
         longestSubStr = Math.max(longestSubStr, nonRepeatingArr.length)
-        console.log("no repeating", nonRepeatingArr, longestSubStr)
 
     }
 
